@@ -18,9 +18,9 @@
     </div>
    <form id="form" class="text-center">
      <div class="form-group">
-    <label for="crust">Pick a Size!</label>
-      <select class="for-group" id="form">
-      <option value="none">Pop Your Crust</option>
+    <label for="size">Pick a Size!</label>
+      <select class="form-group" id="form">
+      <option value="none">Pop Your Size</option>
       <option value="small" id="sm">Small $8</option>
       <option value="medium" id="md">Medium $10</option>
       <option value="large" id="lg">Large $12</option>
@@ -29,13 +29,13 @@
     </div>
     <br>
       <h2>Pop Your Toppings $1 Each!</h2>
-      <label for="some-input">Toppings:</label>
-      <input type="radio" name="peperoni" id="pep"> Pepperoni
-      <input type="radio" name="mushrooms" id="mush"> Mushrooms
-      <input type="radio" name="sausage" id="sau">Sausage
-      <input type="radio" name="pineapple" id="pine">Pineapple
+      <label for="radio">Toppings:</label>
+      <input type="radio" name="toppings" value="pepperoni">Pepperoni
+      <input type="radio" name="toppings" value="mushrooms"> Mushrooms
+      <input type="radio" name="toppings" value="sausage">Sausage
+      <input type="radio" name="toppings" value="pineapple">Pineapple
 
-      <button type="submit" class="btn">Pop You Order</button>
+      <button type="submit" class="btn">Pop Place your order! Total is:</button>
       <div id="output">some output</div>
     </form>
   </body>
