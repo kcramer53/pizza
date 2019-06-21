@@ -5,12 +5,24 @@ h1 {
 text-align: center;
 }
 body {
-  align-items: center;
+  align-items: left;
   padding: 10px;
 }
-radio{
+radio {
   padding-right: 5px;
 }
-select{
+select {
   font-size: 25px;
+  align-content: center;
+}
+#pop {
+  size: 800px;
+  height: 800px;
+  width: 800px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+p{
+  font-style: normal;
+  font-family: sans-serif;
 }
