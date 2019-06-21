@@ -8,3 +8,9 @@ body {
   align-items: center;
   padding: 10px;
 }
+radio{
+  padding-right: 5px;
+}
+select{
+  font-size: 25px;
+}
