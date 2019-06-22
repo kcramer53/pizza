@@ -1,23 +1,17 @@
 // Business Logic //
 
 // naming function to call upon later //
-function Pizza(size, toppings, price){
+var Pizza= function(size, topping){
   this.size = size;
   this.toppings = toppings;
-  this.price = price;
-};
+}
 
-  Pizza.prototype.addPeperoni = function(){
+  Pizza.prototype.addPepperoni = function(){
     return this.peperoni = true;
-  }
-  Pizza.prototype.addMushrooms = function(){
-    return this.mushrooms = true;
-  }
-  Pizza.prototype.addSausage = function(){
-  return this.addSausage = true;
+    console.log(pepperoni);
   }
   Pizza.prototype.addPineapple = function(){
-  return this.addPineapple = true;
+  return this.pineapple = true;
   }
 
 
@@ -25,12 +19,16 @@ function Pizza(size, toppings, price){
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
-    var sizeValue = 
 
-    var size = $("#sizSelect option:selected").text();
-    var toppings = $("#toppingsSelect option:selected").radio();
+    var newPizza = new Pizza(size, toppings);
 
-    var newPizza = new Pizza(size, toppings, price);
+    var size = $("#sizeSelect option:selected").text();
+    var toppings = $("#toppingsSelect option:selected").text();
+    var sizeValue = parseInt($("#sizeSelect option:selected").val();
+    var toppingsValue = parseInt($("#toppingsSelect option:selected").val();
+
     var totalPrice = sizeValue + toppingsValue;
 
-    if
+  if(newPizza.pepperoni.
+
+)};
